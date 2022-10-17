@@ -1,2 +1,2 @@
 # Visasy_Gym
-This is the updates version of the code. 
+This is the updated version of the code. 
