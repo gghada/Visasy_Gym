@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #333333;
+}
+
+/* =========== Logo =========== */
+.logo-name{
+    display: flex;
+    align-items: center;
+}
+ .logo-image{
+    display: flex;
+    justify-content: left;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    min-width: 45px;
+}
+ .logo-image img{
+    width: 5rem;
+    object-fit: cover;
+}
+
+.back{
+    color: #fff;
+    margin-left: 1.4rem;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.back i{
+    font-size: x-small;
+}
+
+.go{
+    color: #fff;
+    text-decoration: none;
+}
+.prog{
+    color: #fff;
+    margin-top: 1rem;
+    margin-left: 1.4rem;
+}
+
+.frm{
+    margin: 1rem;
+    
+}
+
+.form{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.form label{
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.form input{
+    background-color: none;
+    border: 0.1rem solid #fff;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    height: 1.9rem;
+    border-radius: 0.1rem;
+    background-color: #686868;
+    opacity: 40%;
+    padding: 0.5rem;
+    outline: none;
+    
+}
+
+
+
+.edt{
+    color: #fff ;
+    background-color: #3492E9 ;
+    border: none;
+    margin-bottom: 1rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem ; 
+    width: 12rem;
+    border-radius: 0.1rem;
+    font-weight: bold;
+}
+
+.cncl{
+    border: #fff 0.01rem solid;
+    padding-left: 1rem;
+    padding-right: 1rem ; 
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    width: 12rem;
+    border-radius: 0.1rem;
+    background-color: transparent;
+    color: #fff;
+
+}

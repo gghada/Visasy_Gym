@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #333333;
+}
+
+.conty{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.topper{
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+   
+
+}
+
+/* =========== Logo =========== */
+.logo-name{
+    
+    align-items: center;
+    margin-right: 10rem;
+    top: 0;
+    left: 0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.logo-image{
+    
+    justify-content: left;
+  
+}
+.logo-image img{
+    width: 5rem;
+    object-fit: cover;
+}
+
+.to-do{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.to-do h1{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.to-do p{
+    font-size: x-small;
+    margin-top: 0.5rem;
+    font-weight: lighter;
+    color: #fff;
+    
+}
+
+.listt{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10rem;
+    font-size: small;
+    border: #fff 0.01rem solid;
+    padding: 1rem;
+    border-radius: 0.09rem;
+    color: #fff;
+
+}
+.listt span{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.end{
+    margin-top: 1rem;
+    color: #fff;
+    border: none;
+    background-color: rgba(231, 67, 95, 0.5);
+    padding: 0.5rem;
+    border-radius: 0.09rem;
+    font-weight: 550;
+    outline: none;
+    width: 10rem;
+}
+
+.buttom{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    width: 40rem;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.next{
+    width: 20rem;
+}
+.next h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: xx-small;
+}
+
+.next .gif{
+    width: 2rem;
+    margin-top: 1rem;
+}
+
+.gif img{
+    width: 7rem;
+}
+
+.error{
+    color: #fff;
+    font-size: xx-small;
+    border: 1px solid #fff;
+    border-radius: 0.1rem;
+    padding: 0.5rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.cont span{
+    background-color: #3492E9;
+    color: #fff;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: small;
+    border-radius: 30rem;
+
+}

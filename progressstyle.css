@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #333333;
+}
+
+/* =========== Nav Menu =========== */
+nav{
+    
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40rem;
+    padding: 10px 14px;
+    transition: var(--tran-05);
+}
+
+
+
+/* =========== Logo =========== */
+nav .logo-name{
+    display: flex;
+    align-items: center;
+}
+nav .logo-image{
+    display: flex;
+    justify-content: left;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    min-width: 45px;
+}
+nav .logo-image img{
+    width: 5rem;
+    object-fit: cover;
+}
+
+.back{
+    color: #fff;
+    margin-top: 1rem;
+    margin-left: 1.4rem;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.go{
+    color: #fff;
+    text-decoration: none;
+}
+/* =========== Menu Links =========== */
+.prog{
+    color: #fff;
+    margin-top: 1rem;
+    margin-left: 1.4rem;
+}
+
+.day{
+    color: #fff;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.day h1{
+    font-size: small;
+    font-weight: 500;
+}
+
+.day p{
+    font-size: x-small;
+    margin-top: 0.5rem;
+    font-weight: lighter;
+}
+
+.listt{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10rem;
+    font-size: small;
+    border: #fff 0.01rem solid;
+    padding: 1rem;
+    border-radius: 0.09rem;
+
+}
+.listt span{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.week{
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.week h1{
+    font-size: small;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 1rem;
+    width: 10rem;
+
+}
+.cal{
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    
+}
+#Mychart{
+    border: #fff 0.01rem solid;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.09rem;
+
+}
+.cal h1{
+    font-size: small;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+/* =========== Chart =========== */
+
+canvas#chart{
+    background-color: transparent;
+    max-width: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 1%;
+    padding: 1.5%;
+    border: 0.001em solid #fff;
+}
+
+
